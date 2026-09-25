@@ -10,7 +10,7 @@ Whitespace is ignored.
 | Expession                        | De Bruijn  notation       | Description                                        |
 |----------------------------------|---------------------------|----------------------------------------------------|
 | `.`                              | `0`                       | Free variable                                      |
-| `+` `++' '+++` ... `+` × (n + 1) | `1`, `2`, `3` ... `n + 1` | bound variable with index *n + 1*                  |
+| `+` `++` `+++` ... `+` × (n + 1) | `1`, `2`, `3` ... `n + 1` | bound variable with index *n + 1*                  |
 | `[M]`                            | `λ M`                     | Declare new functional expression (Abstraction)    |
 | `M N`                            | `M N`                     | Apply argument *N* to a function *M* (Application) |
 | `(M)`                            | `(M)`                     | Higher priority for an expression                  |
