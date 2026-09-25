@@ -18,7 +18,7 @@ Whitespace is ignored.
 ### Grammar
 
 ```
-<expr> ::= <atom> | <atom> <atom>
+<expr> ::= <atom> { <atom> }
 <atom> ::= '.' | '+' { '+' } | '(' expr ')' | '[' expr ']'
 ```
 
