@@ -1,6 +1,6 @@
 # Overview
 
-**λfuck** is an esoteric programming language made by User:IAm DeLynn. It's based on the de Bruijn notation of untyped lambda calculus in brainfuck-like syntax.
+**λfuck** is an esoteric programming language made by [IAm-DeLynn](https://github.com/IAm-DeLynn/). It's based on the de Bruijn notation of untyped lambda calculus in brainfuck-like syntax.
 
 ## Syntax
 Whitespace is ignored.
